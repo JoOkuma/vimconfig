@@ -1,0 +1,3 @@
+[submodule "plugged/plugged/Nvim-R"]
+	path = plugged/plugged/Nvim-R
+	url = https://github.com/jalvesaq/Nvim-R
