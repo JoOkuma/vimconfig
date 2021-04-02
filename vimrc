@@ -5,6 +5,9 @@ noremap l k
 noremap k j
 noremap j h
 
+" fix delete action
+set backspace=indent,eol,start
+
 " line numbers
 set number
 
@@ -85,9 +88,9 @@ Plug 'davidhalter/jedi-vim'
 let g:jedi#popup_on_dot = 0  " avoid popup when typing `.`
 let g:jedi#show_call_signatures = "1"  " change call signatures position
 
-" TODO create snippets
 " Snippets
 Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 " Trigger configuration. Do not use <tab> 
 let g:UltiSnipsExpandTrigger = "<S-tab>"
 
