@@ -5,6 +5,10 @@ noremap l k
 noremap k j
 noremap j h
 
+inoremap jj <Esc>
+" for practice only
+inoremap <Esc> <NOP>
+
 " fix delete action
 set backspace=indent,eol,start
 
@@ -79,6 +83,9 @@ call plug#begin('~/.vim/plugged')
 
 " Nvim-R
 Plug 'jalvesaq/Nvim-R'
+" Nvim-R options
+let R_pdfviewer = "evince"
+let R_openpdf = 1
 
 " VimCompleteMe
 Plug 'ajh17/VimCompletesMe'
