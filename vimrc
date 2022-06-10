@@ -7,7 +7,7 @@ noremap j h
 
 inoremap jj <Esc>
 " for practice only
-inoremap <Esc> <NOP>
+" inoremap <Esc> <NOP>
 
 " fix delete action
 set backspace=indent,eol,start
